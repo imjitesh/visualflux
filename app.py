@@ -35,7 +35,7 @@ def index():
     cursor.connection.close()
     if 'google_token' in session:
         return render_template("index.html", charts=data,logged_in=True, user=google.get('userinfo').data)
-        print google.get('userinfo').data
+        #print google.get('userinfo').data
     else:
         return render_template("index.html", charts=data,logged_in=False)
 
@@ -47,7 +47,7 @@ def help():
 def stats():
     if 'google_token' in session:
         return render_template("stats.html",logged_in=True, user=google.get('userinfo').data)
-        print google.get('userinfo').data
+        #print google.get('userinfo').data
     else:
         return render_template("index.html", charts=data,logged_in=False)
 
@@ -213,9 +213,9 @@ def authorized(src_page):
         content = query1.fetchall()
         if len(content) == 0:
             cursor.execute("INSERT INTO USER VALUES('"+user_login + "','"+me.data['given_name']+"','"+me.data['family_name']+"','"+me.data['gender'][0]+"',NULL,NULL,'"+me.data['picture']+"','"+me.data['email']+"')")
-            print "adding user"
+            #print "adding user"
         else:
-            print "Already registered user"
+            #print "Already registered user"
     if src_page == 'chart':
         return redirect(url_for('createchart'))
     elif src_page == "home":
