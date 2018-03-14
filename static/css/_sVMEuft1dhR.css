@@ -23,12 +23,12 @@ a {text-decoration: none;}
 #rightner{
 	display: inline-block;
 	height:610px;
-	width: 300px;
+	width: 330px;
 	background: rgba(255,255,255,1);
 	border:solid 0px rgba(0,0,0,0.2);
 	vertical-align: top;
 	text-align: left;
-	margin-left: 15px;
+	margin-left:35px;
 }
 #rightner ul.disp li {
     width: 240px;
@@ -68,8 +68,8 @@ a {text-decoration: none;}
 }
 #chart{
 	display: inline-block;
-	height:450px;
-	width: 958px;
+	height:500px;
+	width: 905px;
 	background: rgba(255,255,255,1);
 	border:solid 1px rgba(0,0,0,0.2);
 	border-top:0;
@@ -168,7 +168,7 @@ a {text-decoration: none;}
 }
 .makeChart{
 	display: inline-block;
-	width: 960px;
+	width: 907px;
 	vertical-align: top;
 	margin-top:27px;
 }
