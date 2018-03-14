@@ -214,8 +214,6 @@ def authorized(src_page):
         if len(content) == 0:
             cursor.execute("INSERT INTO USER VALUES('"+user_login + "','"+me.data['given_name']+"','"+me.data['family_name']+"','"+me.data['gender'][0]+"',NULL,NULL,'"+me.data['picture']+"','"+me.data['email']+"')")
             #print "adding user"
-        else:
-            continue
             #print "Already registered user"
     if src_page == 'chart':
         return redirect(url_for('createchart'))
