@@ -6,15 +6,15 @@ body{background: rgba(255,255,255,1);font-family: 'Open Sans', sans-serif;}
 ul{list-style-type: none;}
 a {text-decoration: none;}
 .bar{width:100%;margin: 0 auto;}
-#topbar{position: fixed;top:0;z-index:20;height:60px;background: rgba(255,255,255,1);border-bottom: solid 1px rgba(230,230,230,1);}
-#insidebar{width:1024px;margin: 0 auto;height:60px;line-height:60px;}
+#topbar{position: fixed;top:0;z-index:20;height:60px;background:rgba(255,255,255,1);border-bottom: solid 1px rgba(230,230,230,1);}
+#insidebar{width:1280px;margin: 0 auto;height:60px;line-height:60px;}
 #insidebar ul.leftsided{float:left;}
 #insidebar ul.leftsided > li:first-child{padding-left:0px;color:rgba(0,128,0,1);font-size:23px;}
 #insidebar ul li{font-weight:300;float: left;color:rgba(10,10,10,1);color: rgba(80,80,80,1);font-size: 13px;}
 #insidebar ul li a{color:rgba(80,80,80,1);}
 ul#profile_div li{font-size:14px;height:40px;line-height:40px;width:122px;background:#FFF;color:rgb(100,100,100);}
 ul#profile_div li:hover{background:rgb(255,255,255);color:rgb(0,0,0);}
-#searchbox input[type="text"]{background: rgba(170,170,170,0.1);border: solid 1px rgba(220,220,220,1);color: #777;width:450px;height:15px;font-size:14px;padding:6px 15px 6px 15px;border-right: 0px;border-radius: 2px 0px 0px 2px;-webkit-transition: all 0.15s;transition: all 0.15s;}
+#searchbox input[type="text"]{background: rgba(170,170,170,0.1);border: solid 1px rgba(220,220,220,1);color: #777;width:450px;height:14px;font-size:14px;padding:6px 15px 6px 15px;border-right: 0px;border-radius: 2px 0px 0px 2px;-webkit-transition: all 0.15s;transition: all 0.15s;}
 #searchbox input[type="text"]:focus{background: rgba(251,251,251,0.6);}
 #insidebar #queried ul li.search{width:520px;background:#FFF;height:40px;line-height:40px;border-bottom:solid 1px #CCC;padding-left:10px;}
 #insidebar #queried ul li.search:hover{background:rgb(250,250,250);cursor:pointer;color:#2b87db;}
@@ -22,7 +22,7 @@ li#search-header{border-top-left-radius:3px;border-top-right-radius:3px;text-ali
 #insidebar ul.rightsided{float:right;padding-left:0px;z-index:20;}
 #insidebar ul.rightsided li{padding-left:15px;padding-right:15px;cursor:pointer;}
 #insidebar ul.rightsided li#login:hover{background:#EEE;}
-#crt_chart{display: inline-block;width:85px;height:15px;margin:0px;padding:6px;border:solid 1px rgba(220,220,220,1);background: rgba(255,255,255,1);border-radius: 0px 2px 2px 0px;color: rgb(60,60,60);font-size:13px;line-height:15px;-webkit-transition: all 0.15s;transition: all 0.15s;font-weight:300;text-align: center;}
+#crt_chart{display: inline-block;width:85px;height:14px;margin:0px;padding:6px;border:solid 1px rgba(220,220,220,1);background: rgba(255,255,255,1);border-radius: 0px 2px 2px 0px;color: rgb(60,60,60);font-size:13px;line-height:15px;-webkit-transition: all 0.15s;transition: all 0.15s;font-weight:300;text-align: center;}
 #crt_chart:hover{border:solid 1px rgba(120,120,120,1);cursor:pointer;}
 #newbar{
 	height:60px;
@@ -70,36 +70,17 @@ li#search-header{border-top-left-radius:3px;border-top-right-radius:3px;text-ali
 a.button {
 	text-decoration: none;
 }
-#crt_chart{
-	width:85px;
-	height:15px;
-	border-radius: 0px;
-	margin:0px;
-	padding:6px;
-    border: solid 1px rgba(220,220,220,1);
-	background: rgba(255,255,255,1);
-	border-radius: 0px 2px 2px 0px;
-	color: rgb(60,60,60);
-	font-size: 13px;
-	line-height:15px;
-	-webkit-transition: all 0.15s; /* Safari */
-    transition: all 0.15s;
-    font-weight:300;
-}
-#crt_chart:hover{
-	border: solid 1px rgba(30,30,30,1);
-}
 
 .container{
-	width:1024px;
+	width:1280px;
 	margin: 0 auto;
-	margin-top: 75px;
+	margin-top: 90px;
 	text-align: left;
 }
 
 .layout_left{
-	height:442px;
-	width: 280px;
+	height:500px;
+	width: 270px;
 	padding: 10px;
 	padding-left:0px;
 	padding-bottom:0px;
@@ -117,7 +98,7 @@ a.button {
 #rightner{
 	display: inline-block;
 	height:450px;
-	width: 710px;
+	width: 990px;
 	margin-left: 10px;
 	background: rgba(255,255,255,1);
 	border:solid 0px rgba(0,0,0,0.2);
@@ -193,9 +174,9 @@ input[type=file]{
 
 #rightner22{
 	display:inline-block;
-	height:450px;
-	width: 717px;
-	margin-left: 10px;
+	height:510px;
+	width: 968px;
+	margin-left: 30px;
 	background: rgba(255,255,255,1);
 	border:solid 1px rgba(0,0,0,0.2);
 	vertical-align: top;
@@ -223,7 +204,7 @@ input[type=file]{
 }
 
 #sheet{
-	width:711px; 
+	width:962px; 
 	margin-left: -1px;
 	margin-top:-1px;
 	border-collapse: collapse;
