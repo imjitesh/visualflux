@@ -59,6 +59,11 @@ li#search-header{border-top-left-radius:3px;border-top-right-radius:3px;text-ali
     padding-top:10px;
     padding-bottom:10px;
     display:inline-block;
+    cursor:pointer;
+}
+
+.container ul.disp li:hover{
+    background:rgba(250,250,250,1);
 }
 
 
@@ -77,6 +82,7 @@ li#search-header{border-top-left-radius:3px;border-top-right-radius:3px;text-ali
     filter: grayscale(100%);
     -webkit-transition: -webkit-filter 0.15s; /* Safari */
     transition: filter 0.15s;
+    margin-left:10px;
 }
 .container ul.disp li .liTitle{
     height:17px;
