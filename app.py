@@ -186,7 +186,7 @@ def login():
 
 @app.route('/googlelogin/<page_id>')
 def glogin(page_id):
-    return google.authorize(callback=url_for('authorized', _external=True))
+    return google.authorize(callback=url_for('authorized', _external=True,src_page=page_id))
 
 @app.route('/logout/<page_id>')
 def logout(page_id):
@@ -196,7 +196,7 @@ def logout(page_id):
     elif page_id == "home":
         return redirect(url_for('index'))
 
-@app.route('/gCallback')
+@app.route('/gCallback/<src_page>')
 def authorized(src_page):
     resp = google.authorized_response()
     if resp is None:
