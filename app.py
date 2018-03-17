@@ -4,8 +4,8 @@ import json, random, string, sqlite3, re, os
 
 
 app = Flask(__name__)
-app.config['GOOGLE_ID'] = "627189221895-524oaf1b12lmnrfdagqboo7f284fvc1q.apps.googleusercontent.com"
-app.config['GOOGLE_SECRET'] = "Ze1a3AfMKHrHoQ6mKeXYulFV"
+app.config['GOOGLE_ID'] = "166783878820-6l6up2ldq0vg5716qdhlfqabnpnluupu.apps.googleusercontent.com"
+app.config['GOOGLE_SECRET'] = "v_gMuhFjOPYAzH9bit6q1kth"
 app.debug = True
 app.secret_key = 'development_'+str(os.urandom(26))
 oauth = OAuth(app)
